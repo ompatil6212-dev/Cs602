@@ -1,0 +1,24 @@
+opcode   	mnemonic	   #operands	#1	#2	ModR/M	        SIB
+89       	MOV              	2	Mem	Reg	N	        -1
+8B       	MOV              	2	Reg	Mem	N	       - 1
+B8      	MOV             	2	Reg	Imm	N       	+rd
+C7      	MOV             	2	Mem	Imm	Y             	0
+3D      	CMP              	2	EAX	Imm	N	        -1
+81      	CMP	                2	Mem	Imm	Y	         7
+39      	CMP	                2	Mem	Reg     N               -1
+3B       	CMP              	2	Reg	Mem	N	        -1
+05	        ADD              	2	EAX	Imm	N	        -1
+81       	ADD	                2	Mem	Imm	Y	         0
+01	        ADD	                2	Mem	Reg	N	        -1
+03       	ADD	                2	Reg	Mem	N	        -1
+2D       	SUB               	2	EAX	Imm	N	        -1
+81       	SUB	                2	Mem	Imm	Y	         5
+29	        SUB               	2	Mem	Reg	N	        -1
+2B       	SUB              	2	Reg	Mem	N	        -1
+35      	XOR             	2	EAX	Imm	N	        -1
+81      	XOR	                2	Mem	Imm	Y	         6
+31	        XOR              	2	Mem	Reg	N	        -1
+33       	XOR             	2	Reg	Mem	N	        -1
+
+   
+
